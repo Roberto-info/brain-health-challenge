@@ -1,0 +1,12 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Pyenv / Virtualenvs
+.python-version
+venv/
+env/
+.env
+
+data/
