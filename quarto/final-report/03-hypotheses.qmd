@@ -1,0 +1,41 @@
+# Hypotheses and Research Questions
+
+## Primary Hypothesis
+
+<!--
+State your main hypothesis clearly and testably, e.g.:
+
+"Individuals who convert from NL to MCI exhibit measurably different 
+neuropsychological, demographic, and behavioral profiles at baseline 
+compared to those who remain cognitively stable."
+-->
+
+## Secondary Hypotheses
+
+<!--
+H2: Memory-related features (LOGIMEM, MEMUNITS, CRAFTDVR) contribute 
+    the most discriminative power for NL → MCI classification.
+
+H3: APOE ε4 carrier status adds significant predictive value beyond 
+    cognitive test scores alone.
+
+H4: Disease regression (MCI → NL) is associated with milder baseline 
+    impairment and absence of depressive or apathetic symptoms.
+-->
+
+## Operationalization
+
+<!--
+Define precisely:
+- How you define "NL → NL", "NL → MCI", "MCI → NL", etc.
+- Which visit pairs are compared (consecutive visits? first and last?)
+- What constitutes a "group" in your classification task
+- How you handle patients with multiple transitions
+-->
+
+## Expected Outcomes
+
+<!--
+What do you expect to find? This section helps frame the later discussion 
+of whether hypotheses were verified or falsified.
+-->

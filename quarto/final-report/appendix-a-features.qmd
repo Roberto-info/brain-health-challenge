@@ -1,0 +1,48 @@
+# Complete Feature Inventory {.appendix}
+
+## Feature Sets Used
+
+```{python}
+#| label: all-features
+#| code-fold: false
+
+admin_features = [
+    'NACCID', 'VISITMO', 'VISITYR', 'VISITDAY',
+    'NACCVNUM', 'NACCNVST', 'INVISITS',
+]
+
+cognitive_features = [
+    'LOGIMEM', 'MEMUNITS', 'CRAFTDVR', 'CRAFTDRE', 'CRAFTURS', 'CRAFTVRS',
+    'TRAILA', 'TRAILB', 'DIGFORCT', 'DIGBACCT', 'DIGBACLS',
+    'NACCMMSE', 'MOCATOTS', 'NACCMOCA', 'CDRSUM', 'CDRGLOB',
+    'ANIMALS', 'VEG', 'BOSTON', 'MOCAFLUE',
+    'MOCARECN', 'DIGFORSL', 'UDSVERTN', 'UDSVERLC', 'UDSVERFC',
+    'MOCAREPE', 'MOCASER7', 'MOCAABST',
+]
+
+demographic_features = [
+    'NACCAGE', 'EDUC', 'SEX',
+    'HYPERTEN', 'DIABET', 'HYPERCHO', 'NACCBMI',
+]
+
+npi_features = [
+    'NACCGDS', 'DEP', 'ANXIET', 'BEAPATHY', 'MEMPROB',
+]
+
+genetic_features = [
+    'NACCAPOE', 'NACCNE4S',
+    'NPATGAM1', 'NPATGAM2', 'NPATGAM3', 'NPATGAM4', 'NPATGAM5', 'NPATGAMY',
+    'NPATGFR1', 'NPATGFR2', 'NPATGFR3', 'NPATGFR4', 'NPATGFRN',
+    'NPATGSEV', 'NPGENE',
+    'OTHMUT', 'OTHMUTX',
+    'ADGCEXOM', 'ADGCEXR', 'ADGCRND', 'ADGCGWAS',
+    'NPARTAG', 'APP',
+]
+```
+
+## NACC Variable Descriptions
+
+<!--
+Add a reference table mapping variable names to their full descriptions.
+Source: NACC Data Dictionary
+-->

@@ -1,0 +1,69 @@
+# Results
+
+## Model Performance Comparison
+
+```{python}
+#| label: performance-table
+
+# Summary table: Model × Metric (Accuracy, F1, AUC, Recall)
+# Per group comparison (early detection, progression, regression)
+```
+
+```{python}
+#| label: roc-curves
+
+# ROC curves for all models, overlaid per classification task
+```
+
+## Feature Importance
+
+```{python}
+#| label: shap-analysis
+
+# SHAP summary plots for the best-performing model
+# Global feature importance ranking
+# SHAP dependence plots for top features
+```
+
+```{python}
+#| label: feature-importance-comparison
+
+# Compare feature importance across the three group comparisons
+# Which features are universally important vs. group-specific?
+```
+
+## Early Detection Results (NL → NL vs. NL → MCI)
+
+```{python}
+#| label: results-early-detection
+
+# Classification report, confusion matrix
+# Top discriminating features
+```
+
+## Disease Progression Results
+
+```{python}
+#| label: results-progression
+
+# Results per progression path
+# Comparison of feature profiles
+```
+
+## Disease Regression Results (MCI → MCI vs. MCI → NL)
+
+```{python}
+#| label: results-regression
+
+# Classification report, confusion matrix
+# Features associated with reversion to normal
+```
+
+## Biomarker Subanalysis Results
+
+```{python}
+#| label: results-biomarkers
+
+# Performance with and without biomarkers
+# Added predictive value of genetic/CSF features
+```

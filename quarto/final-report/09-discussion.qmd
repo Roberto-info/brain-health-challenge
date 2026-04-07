@@ -1,0 +1,68 @@
+# Discussion
+
+## Interpretation of Results
+
+<!--
+- Which models performed best and why?
+- Which features emerged as most predictive?
+- Do results align with clinical expectations?
+-->
+
+## Hypothesis Evaluation
+
+### H1: Distinguishable Profiles at Baseline
+
+<!--
+Verified / Partially verified / Falsified?
+What evidence supports or contradicts the hypothesis?
+-->
+
+### H2: Memory Features as Primary Discriminators
+
+<!--
+Were memory tests (LOGIMEM, MEMUNITS, etc.) indeed the strongest predictors?
+Or did executive function or behavioral features contribute more?
+-->
+
+### H3: Added Value of APOE ε4
+
+<!--
+Did genetic information improve model performance?
+Discuss the biomarker subanalysis results.
+-->
+
+### H4: Characteristics of Disease Regression
+
+<!--
+What distinguished MCI reverters from stable MCI?
+Are the findings clinically plausible?
+-->
+
+## Comparison with Existing Literature
+
+<!--
+How do your findings compare to published studies?
+- Agreement or disagreement with known risk factors
+- Novel findings or unexpected results
+-->
+
+## Limitations
+
+<!--
+Be honest and thorough:
+- Retrospective observational design
+- Potential selection bias in NACC data
+- Small biomarker sample
+- Missing data and imputation assumptions
+- No causal claims possible
+- Practice effects in longitudinal cognitive testing
+-->
+
+## Future Directions
+
+<!--
+- Incorporating neuroimaging data
+- Survival analysis for time-to-conversion
+- Deep learning on larger, multimodal datasets
+- External validation on non-NACC cohorts
+-->

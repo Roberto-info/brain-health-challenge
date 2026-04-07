@@ -1,0 +1,35 @@
+# Literature Review
+
+## Current Approaches to Cognitive Decline Prediction
+
+<!--
+Review existing studies that use NACC or similar datasets.
+Focus on:
+- Which features/biomarkers have been shown to predict MCI/AD conversion
+- Common ML methods used in the field (logistic regression, random forest, XGBoost)
+- How other studies define their groups (NL, MCI, AD transitions)
+-->
+
+## The Role of Neuropsychological Testing
+
+<!--
+- Which cognitive tests are most sensitive to early decline (e.g., LOGIMEM, Trail Making)
+- How composite scores vs. individual tests compare
+-->
+
+## Biomarkers in Early Detection
+
+<!--
+- APOE ε4 as a genetic risk factor
+- CSF biomarkers (amyloid, tau) and their predictive value
+- Challenges: small sample sizes, missing data, cost
+-->
+
+## Gaps in Existing Research
+
+<!--
+Identify what your project contributes or explores differently:
+- Combining cognitive, demographic, NPI, and genetic features
+- Investigating disease regression (MCI → NL)
+- Comparing group-specific feature importance
+-->

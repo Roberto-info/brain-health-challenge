@@ -1,0 +1,87 @@
+# Model Selection and Methodology
+
+## Preprocessing Pipeline
+
+```{python}
+#| label: preprocessing
+
+# Handling missing values (imputation strategy)
+# Encoding categorical variables
+# Scaling / normalization
+# Train-test split strategy
+```
+
+## Candidate Models
+
+<!--
+For each model, briefly justify why it is suitable for this task.
+-->
+
+### Logistic Regression
+
+<!--
+- Baseline model, highly interpretable
+- L1 (Lasso) regularization for built-in feature selection
+- Suitable for both large and small datasets
+-->
+
+### Random Forest
+
+<!--
+- Handles non-linear relationships and feature interactions
+- Built-in feature importance
+- Robust to outliers
+-->
+
+### XGBoost
+
+<!--
+- State-of-the-art for tabular data
+- Handles class imbalance via scale_pos_weight
+- SHAP integration for interpretability
+-->
+
+### Support Vector Machine
+
+<!--
+- Effective in high-dimensional spaces
+- Useful if class separation is non-linear (RBF kernel)
+-->
+
+## Evaluation Strategy
+
+<!--
+- Stratified k-fold cross-validation (k=5 or k=10)
+- Metrics: Accuracy, Precision, Recall, F1, AUC-ROC
+- Why AUC and Recall matter more than accuracy in clinical context
+- Handling class imbalance: SMOTE, class weights, or undersampling
+-->
+
+```{python}
+#| label: model-training
+
+# Model training and cross-validation code
+```
+
+## Hyperparameter Tuning
+
+```{python}
+#| label: hyperparameter-tuning
+
+# Grid search or Optuna setup
+```
+
+## Biomarker Subanalysis
+
+<!--
+Separate modeling pipeline for the smaller biomarker dataset (~384 patients).
+- More conservative approach (logistic regression, small RF)
+- Repeated stratified CV to account for small sample
+- Compare: model with cognitive features only vs. cognitive + biomarkers
+-->
+
+```{python}
+#| label: biomarker-model
+
+# Biomarker-specific pipeline
+```

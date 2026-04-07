@@ -1,0 +1,75 @@
+# Exploratory Data Analysis
+
+## Dataset Overview
+
+<!--
+- Source: NACC UDS (Uniform Data Set)
+- Number of observations, patients, visits
+- Time span of data collection
+-->
+
+```{python}
+#| label: load-data
+#| echo: true
+
+import pandas as pd
+from scipy.stats import mannwhitneyu
+
+base_path = '../../data/'
+
+data_with_groups = pd.read_csv(base_path + 'data_with_groups.csv')
+data_invest = pd.read_csv(base_path + 'investigator_nacc72.csv')
+data_biom = pd.read_csv(base_path + 'bio_marker.csv')
+```
+
+```{python}
+display(data_with_groups.head())
+set(data_with_groups['Group'])
+print(set(data_with_groups['Group']))
+```
+
+
+## Demographic Summary
+
+```{python}
+#| label: demographics-summary
+
+# Age, sex, education distributions
+# Table or visualization of demographic breakdown by group
+```
+
+## Cognitive Score Distributions
+
+```{python}
+#| label: cognitive-distributions
+
+# Distribution plots for key cognitive tests (MMSE, MoCA, CDR, etc.)
+# Stratified by group (NL→NL vs NL→MCI)
+```
+
+## Missing Data Analysis
+
+```{python}
+#| label: missing-data
+
+# Heatmap or bar chart of missing values per feature
+# Special attention to biomarker missingness
+```
+
+## Class Balance
+
+```{python}
+#| label: class-balance
+
+# Group distribution: how many NL→NL, NL→MCI, MCI→NL, MCI→AD, etc.
+# Discuss imbalance and potential strategies (SMOTE, class weights)
+```
+
+## Correlation Structure
+
+```{python}
+#| label: correlation-matrix
+
+# Correlation heatmap of cognitive features
+# Identify highly correlated pairs (multicollinearity)
+```

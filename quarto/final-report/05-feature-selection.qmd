@@ -1,0 +1,51 @@
+# Feature Selection
+
+## Feature Categories
+
+<!--
+Present the rationale for grouping features into:
+- Administrative / visit tracking
+- Cognitive / neuropsychological tests
+- Demographic / comorbidity
+- Neuropsychiatric (NPI)
+- Genetic / biomarker
+-->
+
+## Selection Criteria
+
+<!--
+Explain how features were selected:
+- Clinical relevance based on literature
+- Correlation thresholds (r > 0.15)
+- Domain expertise
+- Availability and completeness
+-->
+
+## Selected Feature Sets
+
+```{python}
+#| label: feature-lists
+
+# Display the feature lists defined in your selection
+# admin_features, cognitive_features, demographic_features, 
+# npi_features, genetic_features
+```
+
+## Frequency Tables
+
+```{python}
+#| label: frequency-tables
+
+# For categorical features: frequency counts per group
+# For continuous features: summary statistics (mean, SD, median) per group
+# Statistical tests: chi-square for categorical, t-test/Mann-Whitney for continuous
+```
+
+## Feature Importance (Preliminary)
+
+```{python}
+#| label: preliminary-importance
+
+# Univariate analysis: which features differ most between groups
+# Effect sizes (Cohen's d, Cramér's V)
+```

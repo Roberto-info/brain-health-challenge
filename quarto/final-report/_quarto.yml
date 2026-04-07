@@ -1,0 +1,36 @@
+project:
+  type: book
+
+jupyter: brain
+
+book:
+  title: "Cognitive Decline Prediction in Aging Populations"
+  subtitle: "A Machine Learning Approach Using NACC Longitudinal Data"
+  author: "Andrés Jauch, Lennard Friedrich, Roberto Fazekas"
+  date: today
+  reader-mode: true
+  chapters:
+    - index.qmd
+    - 01-introduction.qmd
+    - 02-literature-review.qmd
+    - 03-hypotheses.qmd
+    - 04-data-exploration.qmd
+    - 05-feature-selection.qmd
+    - 06-group-definitions.qmd
+    - 07-model-selection.qmd
+    - 08-results.qmd
+    - 09-discussion.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+  pdf:
+    documentclass: scrreprt
+
+
+

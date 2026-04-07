@@ -1,0 +1,28 @@
+# Introduction
+
+## Background
+
+<!-- 
+Provide context on:
+- The growing prevalence of dementia and Alzheimer's disease
+- Why early detection matters (treatment window, planning, clinical trials)
+- The role of Mild Cognitive Impairment (MCI) as a transitional stage
+- Brief intro to the NACC database and its significance
+-->
+
+## Research Objectives
+
+<!--
+Clearly state what this project aims to achieve:
+- Identify distinguishing features between stable and declining cognitive groups
+- Evaluate predictive models for cognitive trajectory classification
+- Explore whether disease regression (MCI → NL) has identifiable patterns
+-->
+
+## Scope and Limitations
+
+<!--
+- This is a preparatory research project, not a full clinical study
+- Limitations of retrospective observational data
+- Constraints of the available biomarker sample size (~384 patients)
+-->

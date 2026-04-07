@@ -1,0 +1,16 @@
+# Abstract {.unnumbered}
+
+Early identification of individuals at risk for cognitive decline remains a central
+challenge in dementia research. This study leverages longitudinal data from the
+National Alzheimer's Coordinating Center (NACC) to investigate which clinical,
+demographic, neuropsychological, and genetic features distinguish stable
+cognitive aging from pathological trajectories.
+
+Using machine learning classification models, we examine three key questions:
+
+1. **Early Detection** — What separates individuals who remain cognitively normal (NL → NL) from those who convert to Mild Cognitive Impairment (NL → MCI)?
+2. **Disease Progression** — Which features predict transitions such as NL → MCI, MCI → AD, and NL → AD?
+3. **Disease Regression** — What characterizes individuals who revert from MCI back to normal cognition (MCI → NL)?
+
+We compare multiple modeling approaches and evaluate feature importance to
+identify clinically meaningful predictors of cognitive change.

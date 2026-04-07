@@ -1,0 +1,75 @@
+# Group Definitions and Transition Analysis
+
+<!--
+This chapter defines the clinical groups used throughout the study 
+and motivates why each comparison is scientifically relevant.
+-->
+
+## Transition Framework
+
+<!--
+Explain how transitions are derived from longitudinal NACC visits:
+- Comparing diagnosis at visit N with diagnosis at visit N+1
+- Or comparing first visit diagnosis with last visit diagnosis
+- How NACCUDSD or similar variables encode diagnostic status
+-->
+
+```{python}
+#| label: transition-matrix
+
+# Transition matrix: from-diagnosis (rows) × to-diagnosis (columns)
+# Visualize as heatmap or Sankey diagram
+```
+
+## Early Detection: NL → NL vs. NL → MCI {#sec-early-detection}
+
+<!--
+Research question: What distinguishes individuals who remain cognitively 
+normal from those who develop MCI?
+
+Clinical relevance: Identifying at-risk individuals before symptom onset 
+enables earlier intervention and clinical trial enrollment.
+-->
+
+```{python}
+#| label: early-detection-groups
+
+# Sample sizes, demographic comparison
+# Baseline feature distributions for both groups
+```
+
+## Disease Progression: NL → MCI, MCI → AD, NL → AD {#sec-progression}
+
+<!--
+Research question: Which features predict the speed and trajectory 
+of cognitive decline?
+
+Clinical relevance: Understanding progression markers helps 
+stratify patients by risk severity.
+-->
+
+```{python}
+#| label: progression-groups
+
+# Sample sizes per progression path
+# Compare feature profiles across progression types
+```
+
+## Disease Regression: MCI → MCI vs. MCI → NL {#sec-regression}
+
+<!--
+Research question: What characterizes individuals whose cognitive 
+status improves or reverts to normal?
+
+Clinical relevance: Understanding reversibility may reveal modifiable 
+risk factors or identify misdiagnosed cases.
+-->
+
+```{python}
+#| label: regression-groups
+
+# Sample sizes
+# Feature comparison: stable MCI vs. reverters
+# Discussion of potential explanations (practice effects, 
+#   depression resolution, misdiagnosis)
+```
